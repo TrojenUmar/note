@@ -10,6 +10,8 @@
 #import "AppDelegate.h"
 #import <CoreData/CoreData.h>
 
+
+
 @interface AlarmViewController ()
 
 @end
@@ -23,6 +25,7 @@
 //    self.navigationController.navigationBar.backItem.title=@"Cancel" ;
 //    self.navigationController.toolbarHidden=YES;
     
+    // new comment for check working or not ....
     notificationAlarm=[[UILocalNotification alloc]init];
     
     
