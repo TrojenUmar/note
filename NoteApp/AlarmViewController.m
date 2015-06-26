@@ -9,6 +9,8 @@
 #import "AlarmViewController.h"
 #import "AppDelegate.h"
 #import <CoreData/CoreData.h>
+#import <Foundation/Foundation.h>
+
 @interface AlarmViewController ()
 
 @end
@@ -23,6 +25,7 @@
 //    self.navigationController.toolbarHidden=YES;
     
     notificationAlarm=[[UILocalNotification alloc]init];
+    
     
 }
 
